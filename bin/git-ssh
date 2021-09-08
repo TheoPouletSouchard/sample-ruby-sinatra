@@ -1,8 +1,0 @@
-#!/bin/bash
-
-if [ ! -e "$HOME/.pkey" ] ; then
-  echo "$(echo $PKEY | base64 -d)" > "$HOME/.pkey"
-  chmod 400 "$HOME/.pkey"
-fi
-
-ssh -i "$HOME/.pkey" -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no $1 $2
