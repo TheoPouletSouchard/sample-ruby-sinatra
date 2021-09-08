@@ -1,24 +1,27 @@
-Sample Application with Ruby and Sinatra
-========================================
+# Sample Application with Ruby and Sinatra
 
-Running Locally
----------------
+This sample is running on: https://ruby-sinatra.is-easy-on-scalingo.com/
 
-```sh
-bundle
-ruby main.rb
-```
-
-Deploying on Scalingo
----------------------
+## Deploy via Git
 
 Create an application on https://scalingo.com, then:
 
-```
+```shell
 git remote add scalingo git@scalingo.com:<name_of_your_app>.git
 git push scalingo master
 ```
 
 And that's it!
 
-The application is running at this url: https://sample-ruby-sinatra.scalingo.io/
+## Deploy via One-Click
+
+[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy)
+
+## Running Locally
+
+```shell
+bundle install
+ruby main.rb
+```
+
+The application is available at: http://localhost:4567/

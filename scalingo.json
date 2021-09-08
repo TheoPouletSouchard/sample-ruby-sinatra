@@ -3,5 +3,5 @@
   "description": "Sample Ruby web application using the Sinatra framework",
   "logo": "https://scalingo.com/logo.svg",
   "repository": "https://github.com/Scalingo/sample-ruby-sinatra",
-  "website": "https://sample-ruby-sinatra.scalingo.io"
+  "website": "https://ruby-sinatra.is-easy-on-scalingo.com/"
 }
