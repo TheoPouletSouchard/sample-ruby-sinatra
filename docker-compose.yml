@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    volumes:
+      - ./:/usr/src/app/
+    ports:
+      - 3000:3000
+    environment:
+      PORT: 3000
+      BUNDLE_BIN: "/usr/src/app/vendor/.bundle/ruby/3.2.0/bin"
+      BUNDLE_PATH: "/usr/src/app/vendor/.bundle/ruby/3.2.0"
+      BUNDLE_APP_CONFIG: "/usr/src/app/.bundle"
+    command: bundle exec ruby main.rb
