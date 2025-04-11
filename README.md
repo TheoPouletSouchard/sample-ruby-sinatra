@@ -2,6 +2,8 @@
 
 This sample is running on: https://ruby-sinatra.is-easy-on-scalingo.com/
 
+
+
 ## Deploy via Git
 
 Create an application on https://scalingo.com, then:
