@@ -25,3 +25,5 @@ ruby main.rb
 ```
 
 The application is available at: http://localhost:4567/
+
+Why not adding a git tag?
