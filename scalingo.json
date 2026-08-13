@@ -3,5 +3,15 @@
   "description": "Sample Ruby web application using the Sinatra framework",
   "logo": "https://scalingo.com/logo.svg",
   "repository": "https://github.com/Scalingo/sample-ruby-sinatra",
-  "website": "https://ruby-sinatra.is-easy-on-scalingo.com/"
+  "website": "https://ruby-sinatra.is-easy-on-scalingo.com/",
+  "formation": {
+    "web": {
+      "amount": 2,
+      "size": "M"
+    },
+    "web": {
+      "amount": 1,
+      "size": "S"
+    }
+  }
 }
